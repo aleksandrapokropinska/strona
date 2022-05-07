@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Aleksandra Pokropińska</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Aleksandra Pokropińska</h1>
+        </div>
+        <div class="data">
+          <h1 id="obecnadata"> coś</h1>
+          <script> 
+          var today = new Date();
+          var date = today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
+          document.getElementById("obecnadata").innerHTML = 'dzisiejsza data: ' + date;
+    </script>
+    </div>
+        <div class="main">
+            <div class="menu">
+                <ul>
+                <li>
+                  <a href="index.html">
+                    O mnie
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="jezdziectwo.html">
+                    Jeździectwo
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="zwierzeta.html">
+                    Zwierzęta
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="muzyka.html">
+                    Muzyka
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="ksiazki.html">
+                    Książki
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="text">
+                <h2>Muzyka </h2>
+                <p> Mam zróżnicowany gust muzyczny. Poniżej linki do dwóch albumów, które bardzo lubię.
+                </p> 
+                <div class="row">
+                    <div class="column2">
+                        <a href="https://open.spotify.com/album/0Gf1yE895FKK4YWVRuAeg8?si=4WUO2VK8Qw6UlPsyjXJsUg" target="_blank">
+                        <img   alt="Tom Odell Long Way Down" height="700px"   src="tomodell.jpg"/>
+                        </a>
+                    </div>
+                    <div class="column2">
+                        <a href="https://open.spotify.com/album/621cXqrTSSJi1WqDMSLmbL?si=WA9Xq_k8RhuUoAuGzt0ToA" target="_blank">
+                        <img  alt="Twnety One Pilots Trench" height="700px"  src="21pilots.jpg"/>
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    <div class="footer">
+        <p> 2022 &copy; Aleksandra Pokropińska</p>
+    </div>
+
+    </body>
+</html>

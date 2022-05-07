@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Aleksandra Pokropińska</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Aleksandra Pokropińska</h1>
+        </div>
+        <div class="data">
+          <h1 id="obecnadata"> coś</h1>
+          <script> 
+          var today = new Date();
+          var date = today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
+          document.getElementById("obecnadata").innerHTML = 'dzisiejsza data: ' + date;
+    </script>
+        </div>
+        <div class="main">
+            <div class="menu">
+                <ul>
+                <li>
+                  <a href="index.html">
+                    O mnie
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="jezdziectwo.html">
+                    Jeździectwo
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="zwierzeta.html">
+                    Zwierzęta
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="muzyka.html">
+                    Muzyka
+                  </a>
+                </li>
+            </br>
+                <li>
+                  <a href="ksiazki.html">
+                    Książki
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="text">
+                <h2>Książki </h2>
+                <p> Lubię książki sci-fi oraz fantasy. Do moich ulubieńców należą ''Hunger Games'' oraz ''Percy Jackson''.
+                </p> 
+                <div class="row">
+                    <div class="column">
+                        <img   alt="Hunger Games" height="700px"   src="hunger games.jpg"/>
+                    </div>
+                    <div class="column">
+                        <img  alt="Percy Jackson" height="700px"  src="perssasy.jpg"/>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    <div class="footer">
+        <p> 2022 &copy; Aleksandra Pokropińska</p>
+    </div>
+
+    </body>
+</html>
